@@ -3,6 +3,7 @@ package net.silentchaos512.tutorial;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
+import net.silentchaos512.tutorial.block.ModBlocks;
 import net.silentchaos512.tutorial.proxy.CommonProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -62,6 +63,7 @@ public class TutorialMod {
 
     // Load config
     // Create and register blocks and items
+    ModBlocks.init();
   }
 
   /**

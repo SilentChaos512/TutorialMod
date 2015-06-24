@@ -1,0 +1,14 @@
+# This is the localization file for American English, Minecraft's default language!
+# Here is where you pair up the unlocalized names/keys with their more human-friendly counterparts.
+#
+# Lines that begin with '#' are comments, where you can write whatever you need to. I recommend
+# organizing localizations into categories, such as blocks, items, and miscellaneous things.
+# In each category, I usually alphabetize everything, but the order doesn't really matter.
+
+# Creative tabs
+
+itemGroup.tabTutorialMod=Silent's Awesome Tutorial Mod
+
+# Block localizations
+
+tile.tutorialmod:MithrilOre.name=Mithril Ore
