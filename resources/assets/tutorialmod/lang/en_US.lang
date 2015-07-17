@@ -11,4 +11,10 @@ itemGroup.tabTutorialMod=Silent's Awesome Tutorial Mod
 
 # Block localizations
 
-tile.tutorialmod:MithrilOre.name=Mithril Ore
+tile.tutorialmod:mithril_block.name=Mithril Block
+tile.tutorialmod:mithril_ore.name=Mithril Ore
+
+# Item localizations
+
+item.tutorialmod:mithril_ingot.name=Mithril Ingot
+item.tutorialmod:mithril_nugget.name=Mithril Nugget

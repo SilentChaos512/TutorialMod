@@ -2,9 +2,12 @@ package net.silentchaos512.tutorial.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
 import net.silentchaos512.tutorial.TutorialMod;
+import net.silentchaos512.tutorial.item.ModItems;
 import net.silentchaos512.tutorial.lib.Names;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 /**
  * A basic ore that will be smeltable after we add an ingot to match it. It is registered in the ore dictionary however.
@@ -56,9 +59,11 @@ public class BlockMithrilOre extends Block {
   public void addRecipes() {
 
     /*
-     * We'll put the smelting recipe for ore -> ingot here later. You could also put it in the ingot class if you want
-     * to. The location doesn't matter.
+     * Adds a smelting recipe for ore -> ingot. Includes the XP earned for smelting. For example XP
+     * values, go here: http://minecraft.gamepedia.com/Smelting#Processing_ores_and_materials
+     * (Episode 4)
      */
+    GameRegistry.addSmelting(this, new ItemStack(ModItems.mithrilIngot), 0.9f);
   }
 
   /**

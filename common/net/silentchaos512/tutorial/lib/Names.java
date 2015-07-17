@@ -10,5 +10,14 @@ package net.silentchaos512.tutorial.lib;
  */
 public class Names {
 
-  public static final String MITHRIL_ORE = "MithrilOre";
+  /*
+   * Blocks
+   */
+  public static final String MITHRIL_ORE = "mithril_ore";
+  
+  /*
+   * Items
+   */
+  public static final String MITHRIL_INGOT = "mithril_ingot";
+  public static final String MITHRIL_NUGGET = "mithril_nugget";
 }
