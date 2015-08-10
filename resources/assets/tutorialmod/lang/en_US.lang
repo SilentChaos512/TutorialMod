@@ -18,3 +18,7 @@ tile.tutorialmod:mithril_ore.name=Mithril Ore
 
 item.tutorialmod:mithril_ingot.name=Mithril Ingot
 item.tutorialmod:mithril_nugget.name=Mithril Nugget
+item.tutorialmod:ingot_copper.name=Copper Ingot
+item.tutorialmod:ingot_tin.name=Tin Ingot
+item.tutorialmod:ingot_silver.name=Silver Ingot
+item.tutorialmod:ingot_lead.name=Lead Ingot

@@ -1,7 +1,7 @@
 package net.silentchaos512.tutorial.block;
 
-import net.silentchaos512.tutorial.lib.Names;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.silentchaos512.tutorial.lib.Names;
 
 /**
  * Stores, initializes, and registers blocks. Also adds recipes and ore dictionary entries. (Episode 3)

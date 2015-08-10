@@ -1,7 +1,7 @@
 package net.silentchaos512.tutorial.item;
 
-import net.silentchaos512.tutorial.lib.Names;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.silentchaos512.tutorial.lib.Names;
 
 /**
  * Stores, initializes, and registers items. Also adds recipes and ore dictionary entries. (Episode 4)
@@ -10,6 +10,7 @@ public class ModItems {
 
   public static ItemMithrilIngot mithrilIngot;                  // Episode 4
   public static ItemMithrilNugget mithrilNugget;                // Episode 4
+  public static ItemIngot metalIngot;                           // Episode 5
 
   /**
    * Declare and register items. Do NOT add recipes here!
@@ -21,6 +22,9 @@ public class ModItems {
 
     mithrilNugget = new ItemMithrilNugget();
     GameRegistry.registerItem(mithrilNugget, Names.MITHRIL_NUGGET);
+
+    metalIngot = new ItemIngot();
+    GameRegistry.registerItem(metalIngot, Names.METAL_INGOT);
   }
 
   /**
@@ -32,5 +36,8 @@ public class ModItems {
     mithrilIngot.addOreDict();                                    // Register ore dictionary entries.
 
     mithrilNugget.addOreDict();
+
+    metalIngot.addRecipes();
+    metalIngot.addOreDict();
   }
 }

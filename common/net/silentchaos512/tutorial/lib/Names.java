@@ -13,11 +13,13 @@ public class Names {
   /*
    * Blocks
    */
+  public static final String METAL_ORE = "metal_ore";
   public static final String MITHRIL_ORE = "mithril_ore";
   
   /*
    * Items
    */
+  public static final String METAL_INGOT = "metal_ingot";
   public static final String MITHRIL_INGOT = "mithril_ingot";
   public static final String MITHRIL_NUGGET = "mithril_nugget";
 }
